@@ -49,6 +49,7 @@ APIの基本設計について
 	# ニュース日付（YYYYMMDD）範囲指定（from）: P_DT_FROM
 	# ニュース日付（YYYYMMDD）範囲指定（to）: P_DT_TO
 		p_DT_FROM <= p_DT_TOで設定する。
+		未指定時は全て対象。
 	# レコード取得位置: P_REC_OFST
 		デフォルト＝０、直近先頭の意味。
 	# レコード取得件数最大: P_REC_LIMT
